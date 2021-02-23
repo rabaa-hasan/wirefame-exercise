@@ -1,0 +1,68 @@
+* {
+    box-sizing:border-box;
+}
+
+nav{
+    height: 100px;
+    background-color: rgb(94, 94, 94);
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+nav img{
+    display: block;
+    float: left;
+    padding-left: 150px;
+    
+
+}
+nav a{
+    text-decoration: none;
+    color: rgb(238, 232, 232);
+    padding: calc(200px/4);
+    
+}
+main{
+    margin: auto;
+    width: 80%;
+}
+main div img{
+    width: 100%;
+}
+main article {
+    display: block;
+    float: left;
+    padding: 15px;
+    width: calc(100%/3);
+}
+main section{
+    padding: auto;
+}
+main section img {
+    float: left;
+    display: block;
+    margin: 25px;
+}
+main section h1{
+    text-align: left;
+}
+main section p {
+    text-align: justify;
+    padding: auto;
+    font-style: italic;
+    
+}
+main section button {
+    overscroll-behavior-block:contain;
+    background-color:rgb(0, 0, 0) ;
+    color: rgb(94, 94, 94);
+    padding: 15px;
+    margin: 10px;
+}
+footer{
+    clear: both;
+    height: 100px;
+    background-color: rgb(94, 94, 94);
+   width: 100%;
+}
